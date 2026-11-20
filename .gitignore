@@ -1,0 +1,23 @@
+# 数据库文件太大（2.7GB），超出 GitHub 单文件 100MB 限制，不纳入仓库
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时产物
+*.log
+equity.csv
+trades.csv
+*.tmp
+.DS_Store
+
+# 大体积示例文件（净值/成交CSV较小,保留examples/下的）
+!examples/*.csv
